@@ -14,7 +14,6 @@ logging:
     com.netflix: WARN
     org.springframework.web: WARN
     org.springframework.security: DEBUG
-    com.thoughtmechanix: DEBUG
 
 spring:
   cloud:
@@ -28,3 +27,5 @@ spring:
           zkNodes: localhost
           brokers: localhost
 
+  zipkin:
+    baseUrl: http://localhost:9411
